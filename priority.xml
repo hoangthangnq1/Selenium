@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="D:/Project IVS/SeleniumWebdriver/src/test/java/priority/Priority.java" parallel= "classes" thread-count="2">
+        <classes>
+            <class name="priority.Priority">
+                <methods>
+                    <include name="c_method"/>
+                    <include name="b_method"/>
+                    <include name="a_method"/>
+                    <include name="e_method"/>
+                    <include name="d_method"/>
+                </methods>
+            </class>
+            <class name="loopCase.LoopCase">
+            </class>
+        </classes>
+    </test>
+</suite>

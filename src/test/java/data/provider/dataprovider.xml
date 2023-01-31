@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" thread-count="1" parallel="tests">
+    <test verbose="2" preserve-order="true" name="test1">
+        <parameter name="browser" value="Chrome"></parameter>
+        <parameter name="url" value="https://uat-rsa-web.frt.vn"></parameter>
+        <classes>
+            <class name="data.provider.DataProviderTest">
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="test2">
+        <parameter name="browser" value="Firefox"></parameter>
+        <parameter name="url" value="https://uat-rsa-web.frt.vn"></parameter>
+        <classes>
+            <class name="data.provider.DataProviderTest">
+            </class>
+        </classes>
+    </test>
+</suite>
