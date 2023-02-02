@@ -16,7 +16,7 @@ public class test {
         @BeforeTest
         public void setUpTest(){
             driver = WebDriverManager.firefoxdriver().create();
-            wait = new WebDriverWait(driver,10);
+//            wait = new WebDriverWait(driver,10);
         }
         @AfterTest
         public void tearDown(){

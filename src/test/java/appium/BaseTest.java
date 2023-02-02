@@ -30,7 +30,7 @@ public class BaseTest {
 
             URL url = new URL("http://127.0.0.1:4723/wd/hub");
             driver = new AppiumDriver<MobileElement>(url, cap);
-            wait = new WebDriverWait(driver,30);
+//             wait = new WebDriverWait(driver,30);
 
         } catch (MalformedURLException e) {
             e.printStackTrace();

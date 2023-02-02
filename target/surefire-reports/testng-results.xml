@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-02T11:10:18 ICT" name="javascriptExecutor.JavaScriptExecutor" finished-at="2023-02-02T11:10:33 ICT" duration-ms="15680">
+    <groups>
+    </groups>
+    <test started-at="2023-02-02T11:10:18 ICT" name="Command line test" finished-at="2023-02-02T11:10:33 ICT" duration-ms="15680">
+      <class name="javascriptExecutor.JavaScriptExecutor">
+        <test-method signature="executorTest()[pri:0, instance:javascriptExecutor.JavaScriptExecutor@7d20d0b]" started-at="2023-02-02T11:10:18 ICT" name="executorTest" finished-at="2023-02-02T11:10:33 ICT" duration-ms="15641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executorTest -->
+      </class> <!-- javascriptExecutor.JavaScriptExecutor -->
+    </test> <!-- Command line test -->
+  </suite> <!-- javascriptExecutor.JavaScriptExecutor -->
+</testng-results>
